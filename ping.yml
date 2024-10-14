@@ -1,0 +1,8 @@
+---
+- name: ping
+  hosts: SALA2
+  become: yes
+
+  tasks:
+  - name: ping
+    ping:
