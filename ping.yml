@@ -1,5 +1,6 @@
 ---
 - name: ping
+  hosts: sala2
   become: yes
 
   tasks:
