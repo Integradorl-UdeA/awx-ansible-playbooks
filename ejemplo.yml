@@ -1,0 +1,10 @@
+---
+- name: ping
+  hosts: 192.168.192.5
+  become: yes
+
+  tasks:
+  - name: descargar una imagen
+    get_url:
+      url: https://i.etsystatic.com/22238646/r/il/f0fb7a/5260258451/il_794xN.5260258451_gv1t.jpg
+      dest: /home/lis/awx-test
