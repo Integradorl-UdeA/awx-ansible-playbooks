@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: SALA2
+  hosts: 192.168.192.5
   become: yes
 
   tasks:
