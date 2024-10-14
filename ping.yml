@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: grupo1
+  hosts: "{{ target_group }}"
   become: yes
 
   tasks:
