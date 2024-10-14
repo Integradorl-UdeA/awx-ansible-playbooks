@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: sala2
+  hosts: grupo1
   become: yes
 
   tasks:
