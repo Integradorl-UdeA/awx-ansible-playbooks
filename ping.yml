@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: "{{ target_group }}"
+  hosts: SALA2
   become: yes
 
   tasks:
