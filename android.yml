@@ -8,4 +8,3 @@
     get_url:
       url: https://redirector.gvt1.com/edgedl/android/studio/ide-zips/2024.1.2.12/android-studio-2024.1.2.12-linux.tar.gz
       dest: /home/lis/awx-test
-    when: not archivo_existente.stat.exists
