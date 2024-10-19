@@ -1,0 +1,8 @@
+---
+- name: Ping dinámico
+  hosts: "{{ target_host }}"
+  become: yes
+
+  tasks:
+  - name: Realizar ping
+    ping:
