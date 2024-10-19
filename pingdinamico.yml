@@ -1,6 +1,6 @@
 ---
 - name: Ping dinámico
-  hosts: "{{ target_host }}"
+  hosts: LIS
   become: yes
 
   tasks:
