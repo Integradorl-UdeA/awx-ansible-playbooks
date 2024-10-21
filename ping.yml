@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: SALA2
+  hosts: {{hosts}}
   become: yes
 
   tasks:
