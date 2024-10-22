@@ -1,6 +1,6 @@
 ---
 - name: ping
-  hosts: "{{hosts}}"
+  hosts: "{{hosts_name}}"
   become: yes
 
   tasks:
